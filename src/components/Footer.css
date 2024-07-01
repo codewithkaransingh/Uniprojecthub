@@ -1,0 +1,34 @@
+footer {
+  height: 98px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 100vw;
+  margin: auto;
+  color: white;
+  padding-left: 240px;
+  background-color: #333333;
+  margin-top: 40px;
+}
+footer div {
+  color: rgb(179 179 179);
+  padding-bottom: 1.5rem;
+}
+footer div a {
+  color: rgb(179 179 179);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items a {
+  color: rgb(179 179 179);
+  text-decoration: underline;
+  font-size: 14px;
+}
+.footer-items {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  color: white;
+}

@@ -1,0 +1,42 @@
+/* AdminPage.css */
+
+.admin-page {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-list {
+    margin-top: 20px;
+  }
+  
+  .user-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .user-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    margin-bottom: 10px;
+  }
+  
+  .user-list li span {
+    margin-right: 10px;
+  }
+  
+  .user-list li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

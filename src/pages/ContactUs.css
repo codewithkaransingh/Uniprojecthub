@@ -1,0 +1,92 @@
+/* ContactUsPage.css */
+
+.contact-us-container {
+    display: vertical;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; /* Set height to full viewport height */
+    background-image: url('https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=612x612&w=0&k=20&c=_vmYyAX0aFi-sHH8eYS-tLLNfs1ZWXnNB8M7_KWwhgg='); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    text-align: center;
+}
+.contact-form {
+    max-width: 500px; /* Increase the maximum width of the form */
+    width: 180%; /* Ensure the form takes full width */
+    margin: 0 auto; /* Center the form horizontally */
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.5s ease forwards; /* Fade in animation */
+    opacity: 0; /* Initially hidden */
+}
+
+
+/* Fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Move up slightly */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move back to original position */
+    }
+}
+
+.contact-form label {
+    color: #fff; /* Change label text color to white */
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 5px solid #ebebeb;
+    border-radius: 0px;
+    transition: border-color 0.3s ease;
+    background-color: rgb(255, 255, 255); /* Semi-transparent white background */
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #6d6d6d;
+}
+
+.contact-form button[type="submit"] {
+    width: 50%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center; /* Center the button horizontally */
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.validation-error {
+    color: red;
+}
+
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to full viewport height */
+  }
+  
+  .thank-you-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  

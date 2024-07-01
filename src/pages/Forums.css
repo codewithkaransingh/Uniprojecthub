@@ -1,0 +1,53 @@
+.forums {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .forum-categories h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .forum-categories ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .forum-categories ul li {
+    margin-bottom: 10px;
+  }
+  
+  .forum-categories ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .forum-categories ul li a:hover {
+    color: #007bff;
+  }
+  
+  .discussion-threads h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .discussion-threads ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .discussion-threads ul li {
+    margin-bottom: 20px;
+  }
+  
+  .discussion-threads ul li h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .discussion-threads ul li p {
+    color: #666;
+  }
+  

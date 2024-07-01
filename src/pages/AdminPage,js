@@ -1,0 +1,49 @@
+import React, { useState } from 'react';
+import './AdminPage.css'; // Import your CSS file for styling
+
+const AdminPage = () => {
+  // State for managing users
+  const [users, setUsers] = useState([]);
+
+  // Function to fetch users from the backend
+  const fetchUsers = () => {
+    // Fetch users from the backend API
+    // Update the users state with the fetched data
+    // Example:
+    // setUsers([...fetchedUsers]);
+  };
+
+  // Function to delete a user
+  const deleteUser = (userId) => {
+    // Call the backend API to delete the user with the given userId
+    // Example:
+    // const updatedUsers = users.filter(user => user.id !== userId);
+    // setUsers(updatedUsers);
+  };
+
+  return (
+    <div className="admin-page">
+      <h1>Admin Dashboard</h1>
+      
+      {/* Button to fetch users */}
+      <button onClick={fetchUsers}>Fetch Users</button>
+
+      {/* List of users */}
+      <div className="user-list">
+        <h2>Users</h2>
+        <ul>
+          {users.map(user => (
+            <li key={user.id}>
+              <span>{user.name}</span>
+              <button onClick={() => deleteUser(user.id)}>Delete</button>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Other admin features such as managing projects, settings, etc. */}
+    </div>
+  );
+};
+
+export default AdminPage;

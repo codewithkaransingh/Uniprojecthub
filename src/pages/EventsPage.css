@@ -1,0 +1,105 @@
+/* Event Page Container */
+.event-page {
+  padding: 20px;
+}
+
+/* "Create Event" Button */
+.d-flex.mb-3 {
+  margin-bottom: 20px;
+}
+
+.d-flex.mb-3 button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.d-flex.mb-3 button:hover {
+  background-color: #388e3c;
+}
+
+/* Event List */
+.event-list {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Event Card */
+.card.mb-3 {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card.mb-3:hover {
+  transform: translateY(-5px);
+}
+
+.card.mb-3 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding-right: 10px;
+  
+}
+
+.card.mb-3 .card-body {
+  padding: 20px;
+  background-color: #fff;
+ 
+
+
+}
+
+.card.mb-3 h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card.mb-3 p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+  text-align: right;
+}
+
+.modal-footer button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.modal-footer button:hover {
+  background-color: #388e3c;
+}

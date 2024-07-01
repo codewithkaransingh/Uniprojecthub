@@ -1,0 +1,63 @@
+/* StudentProfilePage.css */
+
+.student-profile-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+}
+
+.profile-picture {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+.projects-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-list li {
+  margin-bottom: 10px;
+}
+
+.activities-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activities-list li {
+  margin-bottom: 10px;
+}
+
+.edit-profile-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.edit-profile-button:hover {
+  background-color: #0056b3;
+}

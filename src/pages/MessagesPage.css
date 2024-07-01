@@ -1,0 +1,126 @@
+/* MessagingPage.css */
+
+.messaging-page {
+  display: flex;
+  height: 100vh;
+}
+
+.conversation-list {
+  width: 30%;
+  padding: 20px;
+  background-color: #f3f2f8;
+  overflow-y: auto;
+}
+
+.conversation-list h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.conversation-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.conversation-item:hover {
+  background-color: #eaeaea;
+}
+
+.conversation-item.active {
+  background-color: #0073b1;
+  color: #fff;
+}
+
+.conversation-item .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.message-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.message-header .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.message-header .name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.message-history {
+  max-height: calc(100% - 120px);
+  overflow-y: auto;
+}
+
+.message {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.sent-message {
+  background-color: #0073b1;
+  color: #fff;
+  align-self: flex-end;
+  border-top-right-radius: 0;
+}
+
+.received-message {
+  background-color: #eaeaea;
+  color: #333;
+  border-top-left-radius: 0;
+}
+
+.new-message {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.new-message input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+
+.new-message button {
+  padding: 12px 25px;
+  background-color: #0073b1;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-message button:hover {
+  background-color: #005689;
+}

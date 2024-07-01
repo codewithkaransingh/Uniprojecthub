@@ -1,0 +1,104 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  width: 70px; /* Adjust the size of the logo as needed */
+  height: auto;
+  transition: transform 0.3s ease; /* Add transition effect for smooth hover */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Scale up the logo on hover */
+}
+
+.about-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: justify; /* Justify the text in the about-section */
+}
+
+.about-section h2 {
+  color: #333;
+  text-align: center; /* Center-align the h2 heading */
+}
+
+.about-section p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 18px; /* Increase the font size of the paragraph */
+  line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.team-section {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for multiple rows */
+  justify-content: center; /* Center the content horizontally */
+  text-align: center; /* Center-align the text content */
+}
+
+.team-member {
+  flex: 1;
+  align-items: center; /* Align items vertically in the center */
+  margin: 10px; /* Add margin for separation */
+  border: 1px solid #ccc; /* Add a border around team members */
+  padding: 20px; /* Add padding for content separation */
+  box-sizing: border-box; /* Include padding and border in the box model */
+  text-align: center; /* Center-align text content */
+  opacity: 0; /* Set initial opacity to 0 for fade-in effect */
+  transform: translateY(20px); /* Move the elements down for fade-in effect */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition effect */
+}
+
+.team-member:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.team-member:hover .profile-photo img {
+  transform: scale(1.1); /* Zoom in the profile photo on hover */
+}
+
+.team-member:hover .social-link img {
+  filter: grayscale(0%); /* Remove grayscale on hover for social icons */
+}
+
+.team-member.animated {
+  opacity: 1; /* Set opacity to 1 for fade-in effect */
+  transform: translateY(0); /* Reset the transform value */
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px; /* Set a fixed height for the round shape */
+  overflow: hidden; /* Hide overflow content beyond the specified height */
+  margin-bottom: 10px; /* Adjust margin for spacing */
+  border-radius: 50%; /* Make the profile photo round */
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%; /* Make sure the image covers the entire container */
+  object-fit: cover; /* Maintain the aspect ratio while covering the container */
+}
+
+.social-link img {
+  width: 30px; /* Adjust the size of the social icons */
+  height: 30px;
+  margin-right: 10px; /* Adjust spacing between icons */
+  transition: filter 0.3s ease; /* Add transition effect for smooth hover */
+}
+
+.social-link:hover img {
+  filter: grayscale(0%) brightness(120%); /* Apply custom hover effect to social icons */
+}
