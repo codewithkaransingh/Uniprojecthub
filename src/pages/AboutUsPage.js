@@ -24,46 +24,7 @@ const AboutUsPage = () => {
         </p>
       </section>
 
-      {/* Section 2: Team Members */}
-      <section className="team-section">
-        <h2>Our Team</h2>
-        {/* Team Member 1 */}
-        <TeamMember
-          name="Harsh Jangra"
-          role="Back-end Developer"
-          profilePhoto="https://media.licdn.com/dms/image/D4D03AQFrLOpUCYeyrQ/profile-displayphoto-shrink_400_400/0/1693813520047?e=1712793600&v=beta&t=fXRVzVnETGu2_EbqKOeWMwMkP1UlnBDDOKggxh1rYjc"
-          instagram="https://www.instagram.com/harsh.jangra_/#"
-          linkedin="https://www.linkedin.com/in/harsh-jangra-65b7361a5/"
-        />
-
-        {/* Team Member 2 */}
-        <TeamMember
-          name="Naman Jain"
-          role="React & ux/ui"
-          profilePhoto="https://scontent.cdninstagram.com/v/t51.2885-19/324773548_1231090394428857_5564313355262183032_n.jpg?stp=dst-jpg_s120x120&_nc_cat=111&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=2NMeVSV7V0YAX8WIPJD&_nc_ht=scontent.cdninstagram.com&oh=00_AfD0dn95jJxcqV3Kxutu-eXIraIo_H3Sgbz-PDNSpjlxrQ&oe=65CA5BEC"
-          instagram="https://www.instagram.com/invincible_bloke?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          linkedin="https://www.linkedin.com/in/naman-jain-182541200"
-        />
-
-        {/* Team Member 3 */}
-        <TeamMember
-          name="Khushi Sharma"
-          role="Front-end/UI-UX Developer"
-          profilePhoto="https://scontent.cdninstagram.com/v/t51.2885-19/293636387_5593072594037222_5685053519636467138_n.jpg?stp=dst-jpg_s120x120&_nc_cat=104&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=SobTWg_bB6cAX-zHRzh&_nc_ht=scontent.cdninstagram.com&oh=00_AfBWWp-GyUGVxn3v7sBf-BbDTd_RMKqD18WxUhzbSO3WLg&oe=65C9B6D9"
-         
-          instagram="https://www.instagram.com/khushi_ssharmaa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          linkedin="https://www.linkedin.com/in/khushi-sharma-655881240"
-        /> 
-
-        {/* Team Member 4 */}
-        <TeamMember
-          name="Harsh Gautam"
-          role="Front-end Developer"
-          profilePhoto="https://scontent.cdninstagram.com/v/t51.2885-19/419522179_1267369177987652_8044595254520289939_n.jpg?stp=dst-jpg_s120x120&_nc_cat=101&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=kXkqxzigtqkAX9DVs6d&_nc_ht=scontent.cdninstagram.com&oh=00_AfDYDnDtG99OEerLEgZrzo8oFSqUmNAYhzM7wHObHHOzXg&oe=65C9742D"
-          instagram="https://www.instagram.com/_harsh_gautam_02?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          linkedin="https://www.linkedin.com/in/harsh-gautam-a38509258"
-        /> 
-      </section>
+      
     </div>
   );
 };
